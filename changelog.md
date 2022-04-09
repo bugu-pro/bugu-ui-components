@@ -1,3 +1,12 @@
+## [1.2.7](https://github.com/bugu-pro/bugu-ui-components/compare/v1.2.6...v1.2.7) (2022-04-09)
+
+
+### Features
+
+* 流程优化 ([e623264](https://github.com/bugu-pro/bugu-ui-components/commit/e623264c23d18ae861646f2c5a38bfc8db11c6d1))
+
+
+
 ## [1.2.6](https://github.com/bugu-pro/bugu-ui-components/compare/v1.2.5...v1.2.6) (2022-04-09)
 
 

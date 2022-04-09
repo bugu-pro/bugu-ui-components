@@ -1,6 +1,5 @@
 import React from 'react';
 import { Spin, Table } from 'antd';
-import { PaginationProps } from 'antd/es/Pagination';
 
 export interface InsideListProps {
     list: any[];
@@ -13,7 +12,7 @@ export interface InsideListProps {
     loading: boolean;
     rowSelection?: any;
     scrollHeight?: number;
-    pagination?: PaginationProps;
+    pagination?: any;
 }
 
 const InsideList: React.FC<InsideListProps> = (props) => {
