@@ -53,17 +53,6 @@ const InsideList: React.FC<InsideListProps> = (props) => {
         });
     };
 
-    const onShowSizeChange = (p: number, s: any) => {
-        history.replace({
-            pathname,
-            query: {
-                ...query,
-                p,
-                s,
-            },
-        });
-    };
-
     if (columns && columns.length) {
         _columns = columns.map((it) => ({
             ...it,

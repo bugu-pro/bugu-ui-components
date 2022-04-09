@@ -1,3 +1,13 @@
+## 1.2.4 (2022-04-09)
+
+
+### Features
+
+* first commit ([0492507](https://github.com/bugu-pro/bugu-ui-components/commit/0492507370605ec13e32a3d9fc6627cd5f880952))
+* 自动发布功能 ([1cc0de6](https://github.com/bugu-pro/bugu-ui-components/commit/1cc0de614d832e49c7763b07fe63733054da88fc))
+
+
+
 ## 1.2.3 (2022-04-09)
 
 
