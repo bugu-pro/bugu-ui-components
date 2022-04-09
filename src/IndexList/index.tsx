@@ -1,5 +1,5 @@
 import React from 'react';
-import { Spin, Table, Pagination } from 'antd';
+import { Spin, Table } from 'antd';
 import { PaginationProps } from 'antd/es/Pagination';
 
 export interface InsideListProps {
