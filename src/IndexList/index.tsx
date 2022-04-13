@@ -13,11 +13,13 @@ export interface InsideListProps {
     rowSelection?: any;
     scrollHeight?: number;
     pagination?: any;
+    otherProps?: any;
 }
 
 const InsideList: React.FC<InsideListProps> = (props) => {
     const {
         total = 0,
+        otherProps = {},
         pagination = {},
         rowKey,
         history,
@@ -78,6 +80,7 @@ const InsideList: React.FC<InsideListProps> = (props) => {
             pageSizeOptions: ['10', '30', '50', '100'],
             ...pagination,
         },
+        ...otherProps,
     };
 
     return (
