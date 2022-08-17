@@ -26,3 +26,5 @@
 ### 🔑 License
 
 [MIT](https://zh.wikipedia.org/wiki/MIT%E8%A8%B1%E5%8F%AF%E8%AD%89)
+
+[帮助](https://banyudu.com/posts/auto_publish_npm_and_generate_github_changelog.882513)
