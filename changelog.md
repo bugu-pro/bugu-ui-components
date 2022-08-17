@@ -1,3 +1,12 @@
+## [1.2.10](https://github.com/bugu-pro/bugu-ui-components/compare/v1.2.9...v1.2.10) (2022-04-13)
+
+
+### Features
+
+* 优化IndexList配置 ([2708bad](https://github.com/bugu-pro/bugu-ui-components/commit/2708bad858acd8b1e843ac50de4f375ba5816920))
+
+
+
 ## [1.2.9](https://github.com/bugu-pro/bugu-ui-components/compare/v1.2.8...v1.2.9) (2022-04-09)
 
 

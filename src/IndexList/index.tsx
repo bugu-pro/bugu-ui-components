@@ -57,7 +57,7 @@ const InsideList: React.FC<InsideListProps> = (props) => {
     if (columns && columns.length) {
         _columns = columns.map((it) => ({
             ...it,
-            align: 'center',
+            align: it.align || 'center',
         }));
     }
 
