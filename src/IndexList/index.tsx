@@ -41,6 +41,9 @@ const InsideList: React.FC<InsideListProps> = (props) => {
     const paginationPosition: any = 'bottomCenter';
 
     const onPageChange = (p: number, s?: number | undefined) => {
+
+        if((p == query.p || (p === 1 && !query.p)) && (s == query.s || (s === 30 && !query.s))) return;
+
         if ((!query.s && s !== 30) || (query.s && Number(query.s) !== s)) {
             p = 1;
         }
